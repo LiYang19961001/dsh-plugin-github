@@ -1,0 +1,7 @@
+# Bundle patch for dsh-plugin-github: a single Host row that registers the
+# github_* tools on the tool registry. No client half — this plugin is
+# model-facing only, so it adds no UI surface.
+- insert:
+    - id: plugin-github
+      name: dsh-plugin-github
+      config: {}
