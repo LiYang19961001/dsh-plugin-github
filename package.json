@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub tools for DeepSeek Harness: query the REST API, search, and read repository files with the token already configured on this machine.",
   "type": "module",
   "main": "index.js",
@@ -26,8 +26,8 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.0.5",
-    "@deepseek-ai/dsh-tools": "0.2.1-rc.3"
+    "@deepseek-ai/cordis": ">=4.0.0",
+    "@deepseek-ai/dsh-tools": ">=0.1.1-rc.2"
   },
   "dsh": {
     "bundle": {
